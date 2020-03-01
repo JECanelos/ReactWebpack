@@ -1,0 +1,9 @@
+.field {
+	& + & {
+		margin-top: 12px;
+	}
+}
+
+.field__label {
+	display: block;
+}

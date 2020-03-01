@@ -1,0 +1,18 @@
+.panel {
+	box-shadow: 1px 1px 4px 4px var(--shadow);
+	background: var(--white);
+}
+
+.panel__header,
+.panel__footer {
+	padding: 12px 24px;
+}
+
+.panel__body {
+	padding: 24px;
+}
+
+.panel__body,
+.panel__footer {
+	border-top: 1px solid var(--border);
+}

@@ -1,0 +1,29 @@
+@import 'normalize-scss';
+
+@include normalize();
+
+html {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+:root {
+	--white: #ffffff;
+	--black: #000000;
+	--blue: #4a69bb;
+	--lightblue: #617be3;
+	--red: #c72c41;
+	--gray: #eeeeee;
+
+	--border: var(--gray);
+	--shadow: var(--gray);
+	--focus: var(--lightblue);
+	--error: var(--red);
+}

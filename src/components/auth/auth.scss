@@ -1,0 +1,25 @@
+.auth {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	min-height: 100vh;
+	background: center center / cover no-repeat;
+}
+
+.auth__container {
+	width: calc(100% - 24px);
+	padding: 24px;
+	background: rgba(255, 255, 255, 0.5);
+
+	@media screen and (min-width: 600px) {
+		width: 480px;
+	}
+}
+
+.auth__logo {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	margin-bottom: 48px;
+}
